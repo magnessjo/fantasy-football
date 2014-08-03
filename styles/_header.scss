@@ -1,0 +1,111 @@
+header{
+  background-color: $green;
+  position: relative;
+  min-height: 80px;
+  
+  a{
+    color: $white;
+  }
+  
+  ul{    
+    li{
+      float: left;
+      
+      a{
+        padding: 0 20px;
+        display: block;
+        text-transform: uppercase;
+        font-weight: bold;
+        line-height: 80px;
+        letter-spacing: .5px;
+        
+        @media screen and (min-width: $tablet) {      
+          padding: 0 50px;  
+        }        
+        
+        &:hover{
+          color: $light-brown;          
+        }
+      }            
+    }
+  }  
+    
+  @media screen and (min-width: $big-phone) {   
+    ul{
+      float: right;        
+    
+      li:first-of-type{
+        a::before{
+          content : "The ";
+        }
+      }         
+    }       
+  }     
+  
+  @media screen and (max-width: $big-phone) {  
+    ul{  
+      li{
+        width: 33%;
+        width: 33.3%;    
+        
+        a{
+          text-align: center;
+        }    
+      }                
+      
+      li:last-of-type{
+        display: none;
+      }        
+    }     
+  }         
+  
+  
+  section{
+    background-color: $brown;
+    overflow: hidden;
+    clear: both;
+    max-height: 0;
+    transition : 1s max-height;
+    
+    @media screen and (max-width: $big-phone) { 
+        max-height: 300px;          
+    }    
+    
+    @media screen and (min-width: $big-phone) { 
+      &.show-members{
+        max-height: 150px;         
+      }     
+    }     
+    
+    @media screen and (min-width: $tablet) { 
+      &.show-members{
+        max-height: 100px;        
+      }       
+    }        
+    
+    a{
+      display: table;
+      float: left;
+      text-align: center;
+      padding: 0 20px;
+      height: 50px;
+      border-top: 1px solid #000;
+      border-left: 1px solid #000;      
+      width: calc(100% / 2);  
+      
+      @media screen and (min-width: $big-phone) {      
+        width: calc(100% / 4);     
+      }     
+      
+      @media screen and (min-width: $tablet) {      
+        width: calc(100% / 6);     
+      } 
+      
+      span{
+        display: table-cell;
+        vertical-align: middle;
+      }   
+    }    
+  }  
+}
+

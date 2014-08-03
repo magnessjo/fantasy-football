@@ -1,0 +1,34 @@
+{
+  "name": "bel-air-fantasy-football",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://magnessjo@github.com/magnessjo/bel-air-fantasy-football.git"
+  },
+  "author": "Josh Magness",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magnessjo/bel-air-fantasy-football/issues"
+  },
+  "homepage": "https://github.com/magnessjo/bel-air-fantasy-football",
+  "dependencies": {
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-htmlmin": "^0.1.3",
+    "gulp-include": "^0.2.3",
+    "gulp-less-sourcemap": "^1.3.3",
+    "gulp-sass": "^0.7.2",
+    "gulp-uglify": "^0.3.1",
+    "just": "^0.1.8"
+  },
+  "devDependencies": {
+    "flightplan": "^0.4.1",
+    "gulp-sass": "^0.7.2"
+  }
+}

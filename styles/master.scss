@@ -1,0 +1,72 @@
+$green       : #164e2e;
+$white       : #FEFDFE;
+$brown       : #543325;
+$light-brown : #D18C5E;
+
+//Sizing Variables
+$phone       : 320px;
+$big-phone   : 600px;
+$tablet      : 768px;
+$desktop     : 1200px;
+
+
+
+
+@import "mixin";
+@import "header";
+@import "main";
+@import "footer";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+*:focus{
+  outline: none;
+}
+
+*::after{
+  content: "";  
+}
+
+*:not(h1)::before{
+  content: "";
+}
+
+body{
+  position: relative;
+  font-size: 16px;
+  min-width: 320px;
+}
+
+h1{
+  margin-bottom: 20px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 14px;
+}
+
+li{
+  list-style: none;
+}
+
+section{
+
+}
+
+
+
+
+.lock{
+  max-width: 1200px;
+}
+
+
+
