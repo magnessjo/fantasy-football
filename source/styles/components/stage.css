@@ -1,0 +1,10 @@
+
+#stage {
+  height: 40vw;
+  min-height: 180px;
+  max-height: 50vh;
+  background-image: url(/images/stage.jpg);
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+}

@@ -1,0 +1,28 @@
+
+.rules {
+
+  & h2 {
+    margin-bottom: 20px;
+  }
+
+  & ul {
+    padding-left: 40px;
+    margin-bottom: 60px;
+  }
+
+  & li {
+    margin-bottom: 20px;
+    list-style: disc;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+  }
+
+  & #stage {
+    background-image: url(/images/rules.jpg);
+    margin-bottom: 80px;
+  }
+
+}

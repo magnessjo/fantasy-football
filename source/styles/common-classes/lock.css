@@ -1,0 +1,16 @@
+
+.lock {
+  padding: 0 15px;
+  position: relative;
+
+  @media (--tablet-min) {
+    padding: 0 30px;
+  }
+
+  @media (--desktop-min) {
+    margin: 0 auto;
+    padding: 0;
+    width: 960px;
+  }
+
+}

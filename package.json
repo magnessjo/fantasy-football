@@ -1,34 +1,56 @@
 {
   "name": "bel-air-fantasy-football",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:views": "node_modules/twig-cli-tmpl/index.js 'source/views/*.html.twig' --base source/views/ --output build/",
+    "watch:views": "node_modules/watch-cli/bin/watch -p 'source/views/**/*.twig' -c 'yarn run build:views'",
+    "watch:assets": "webpack -w --env.NODE_ENV=local",
+    "start": "run-p  watch:assets watch:views"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://magnessjo@github.com/magnessjo/bel-air-fantasy-football.git"
-  },
-  "author": "Josh Magness",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/magnessjo/bel-air-fantasy-football/issues"
-  },
-  "homepage": "https://github.com/magnessjo/bel-air-fantasy-football",
   "dependencies": {
-    "gulp": "^3.8.7",
-    "gulp-concat": "^2.3.4",
-    "gulp-consolidate": "^0.1.2",
-    "gulp-htmlmin": "^0.1.3",
-    "gulp-include": "^0.2.3",
-    "gulp-less-sourcemap": "^1.3.3",
-    "gulp-sass": "^0.7.2",
-    "gulp-uglify": "^0.3.1",
-    "just": "^0.1.8"
+    "babel-polyfill": "^6.26.0",
+    "npm-run-all": "^4.1.5",
+    "prettier-plugin-twig-melody": "^0.4.6",
+    "twig": "^1.15.2",
+    "twig-cli-tmpl": "^1.0.1",
+    "watch-cli": "^0.2.3"
   },
   "devDependencies": {
-    "flightplan": "^0.4.1",
-    "gulp-sass": "^0.7.2"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "copy-webpack-plugin": "^4.4.2",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "path": "^0.12.7",
+    "postcss": "^6.0.19",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.1",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^3.0.0"
+  },
+  "postcss": {
+    "map": true,
+    "plugins": {
+      "postcss-import": {},
+      "postcss-cssnext": {}
+    }
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "Explorer 11"
+            ]
+          }
+        }
+      ]
+    ]
   }
 }

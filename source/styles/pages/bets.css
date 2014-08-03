@@ -1,0 +1,48 @@
+
+.bets {
+
+  & #stage {
+    background-image: url(/images/bets.jpg);
+    margin-bottom: 80px;
+  }
+
+  & #bet-years {
+
+  }
+
+  & .year {
+
+    & h2 {
+      margin-bottom: 50px;
+      font-weight: bold;
+      font-size: 30px;
+    }
+
+    & h3 {
+      font-size: 24px;
+
+      & span {
+        display: inline-block;
+        padding-left: 10px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+    }
+
+    & p {
+      padding-left: 20px;
+    }
+
+    & > div {
+      margin-bottom: 40px;
+
+      @media (--large-min) {
+        padding-left: 20px;
+      }
+
+    }
+
+  }
+
+}

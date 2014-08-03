@@ -1,0 +1,11 @@
+
+.main-button {
+  background-color: #cba406;
+  padding: 20px 40px;
+  clear: both;
+  color: var(--black);
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: var(--condensed);
+  letter-spacing: 5px;
+}

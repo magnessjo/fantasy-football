@@ -1,0 +1,176 @@
+
+.draft {
+
+  & select {
+    height: 44px;
+    margin-bottom: 40px;
+    width: 50%;
+    max-width: 200px;
+    float: right;
+  }
+
+  & #stage {
+    background-image: url(/images/draft.jpg);
+    margin-bottom: 80px;
+  }
+
+  & #results {
+
+    & h2 {
+      margin-bottom: 40px;
+    }
+
+    & .lock > div {
+      margin-bottom: 80px;
+      clear: both;
+
+      @media (--desktop-max) {
+        overflow: hidden;
+      }
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+
+    }
+
+    & .mobile {
+      overflow: hidden;
+      margin-bottom: 40px;
+
+      @media (--x-large) {
+        display: none;
+      }
+
+      & .wrapper {
+        margin-bottom: 30px;
+
+        @media (--large-min) {
+          width: calc(50% - 30px);
+          float: left;
+        }
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+
+        &:nth-of-type(odd) {
+
+          @media (--large-min) {
+            margin-right: 30px;
+          }
+
+        }
+
+        &:nth-of-type(even) {
+
+          @media (--large-min) {
+            margin-left: 30px;
+          }
+
+        }
+
+      }
+
+      & .filtered {
+        margin-bottom: 0;
+
+        @media (--large-min) {
+          width: 100%;
+
+          &:nth-of-type(odd) {
+            margin-right: 0;
+          }
+
+          &:nth-of-type(even) {
+              margin-left: 0;
+          }
+
+        }
+
+      }
+
+      & .entry {
+        overflow: hidden;
+        border-top: 1px solid black;
+        display: table;
+        width: 100%;
+
+        &:last-of-type {
+          border-bottom: 1px solid black;
+        }
+
+        &:nth-of-type(odd) {
+          background-color: #f1f1f1;
+        }
+
+        & > div {
+          display: table-cell;
+          height: 60px;
+          padding: 0 20px;
+          border-left: 1px solid black;
+          vertical-align: middle;
+
+          &:first-of-type {
+            width: 40%;
+          }
+
+          &:last-of-type {
+            width: 60%;
+            border-right: 1px solid black;
+          }
+
+          & span {
+            line-height: 18px;
+            display: block;
+          }
+
+        }
+
+      }
+
+    }
+
+    & table {
+      display: none;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+      width: 100%;
+
+      @media (--x-large) {
+        display: table;
+      }
+
+      & td {
+        width: calc(100% / 13);
+        padding: 5px;
+        text-align: center;
+      }
+
+      & tbody tr {
+
+        &:nth-of-type(odd) {
+          background-color: #f1f1f1;
+        }
+
+      }
+
+      & tbody td {
+        border-left: 1px solid #000;
+        border-top: 1px solid #000;
+
+        &:last-of-type {
+          border-right: 1px solid #000;
+        }
+
+      }
+
+      & tbody tr:last-of-type td {
+        border-bottom: 1px solid #000;
+      }
+
+    }
+
+  }
+
+}

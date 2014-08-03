@@ -1,0 +1,112 @@
+
+.players {
+
+  & #stage {
+    background-image: url(/images/players.jpg);
+    margin-bottom: 80px;
+  }
+
+  & #list {
+
+    & h2.heading-one {
+
+      @media (--large-max) {
+        margin-bottom: 20px;
+      }
+
+      @media (--tablet-min) {
+        text-align: left;
+      }
+
+    }
+
+    & h2.champ {
+      position: relative;
+
+      @media (--large-max) {
+        padding-top: 100px;
+      }
+
+      @media (--tablet-min) {
+        padding-left: 60px;
+      }
+
+      &:before {
+        content: "";
+        background-image: url(/images/players/trophy.png);
+        position: absolute;
+        width: 40px;
+        height: 80px;
+        background-size: contain;
+
+        @media (--large-max) {
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+        @media (--tablet-min) {
+          top: 0;
+          left: 0;
+        }
+
+      }
+
+    }
+
+    & h3 {
+      margin-bottom: 10px;
+      text-decoration: underline;
+    }
+
+    & img {
+
+      @media (--tablet-min) {
+        width: 50%;
+        float: left;
+      }
+
+    }
+
+    & .lock > div {
+      margin-bottom: 80px;
+      border-bottom: 1px solid #000;
+      padding-bottom: 80px;
+
+      @media (--tablet-min) {
+        overflow: hidden;
+      }
+
+      &:last-of-type {
+        border-bottom: none;
+      }
+
+    }
+
+    & .text {
+
+      @media (--large-max) {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      @media (--tablet-min) {
+        padding-right: 40px;
+        float: left;
+        width: calc(50% - 40px);
+      }
+
+      & > div {
+        margin-bottom: 40px;
+
+        &:last-of-type {
+          margin-bottom: 0;
+        }
+
+      }
+
+    }
+
+  }
+
+}

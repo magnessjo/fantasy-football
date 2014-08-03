@@ -1,0 +1,63 @@
+
+header {
+
+  @media (--large-max) {
+    height: 40px;
+  }
+
+  @media (--tablet-min) {
+    height: 80px;
+  }
+
+  & .logo {
+    position: absolute;
+    display: block;
+    background-image: url(/images/logo.svg);
+    z-index: 99;
+    top: 10px;
+    filter: drop-shadow(1px 1px 3px #999);
+
+    @media (--large-max) {
+      height: 70px;
+      width: 70px;
+    }
+
+    @media (--tablet-min) {
+      height: 140px;
+      width: 140px;
+    }
+
+  }
+
+  & nav {
+    float: right;
+  }
+
+  & a, & button {
+    display: inline-block;
+    color: var(--black);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: var(--condensed);
+
+    @media (--large-max) {
+      font-size: 14px;
+      letter-spacing: 2px;
+      margin-left: 20px;
+      line-height: 40px;
+    }
+
+    @media (--tablet-min) {
+      margin-left: 40px;
+      font-size: 18px;
+      line-height: 80px;
+      letter-spacing: 3px;
+    }
+
+  }
+
+  & a:first-child {
+    margin-left: 0;
+  }
+
+}

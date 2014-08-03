@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<link rel="shortlink" href="https://fantasy.joshmagness.com"/>
+		<meta property="og:image" content="/images/logo/bets.jpg"/>
+		<meta property="og:image:type" content="image/jpg"/>
+		<meta property="og:image:width" content="1200"/>
+		<meta property="og:image:height" content="600"/>
+		<title>Bel Air Fantasy Football</title>
+	</head>
+
+	<body class="home">
+		<header>
+			<div class="lock">
+				<a href="/" class="logo"></a>
+
+				<nav>
+					<a href="/rules.html">Rules</a>
+					<a href="/draft.html">Draft</a>
+					<a href="/bets.html">Bets</a>
+					<a href="/players.html">Players</a>
+				</nav>
+			</div>
+		</header>
+
+		<main>
+			{% block content %}{% endblock %}
+		</main>
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="styles.css"/>
+	</body>
+</html>
