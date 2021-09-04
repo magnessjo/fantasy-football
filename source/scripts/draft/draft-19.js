@@ -1,4 +1,3 @@
-
 const draft = {
   year: '2019',
   draft: [
@@ -66,7 +65,8 @@ const draft = {
           selection: 'Thomas',
         },
       ],
-    }, {
+    },
+    {
       round: '2',
       picks: [
         {
@@ -130,71 +130,73 @@ const draft = {
           selection: 'Mike Evans',
         },
       ],
-    },{
-        round: '3',
-        picks: [
-          {
-            number: '1',
-            player: 'Biggie',
-            selection: 'Arron Jones',
-          },
-          {
-            number: '2',
-            player: 'Eder',
-            selection: 'Derrick Henry',
-          },
-          {
-            number: '3',
-            player: 'Dorsey',
-            selection: 'Ingram',
-          },
-          {
-            number: '4',
-            player: 'Shane',
-            selection: 'Freeman',
-          },
-          {
-            number: '5',
-            player: 'Josh',
-            selection: 'Montgomery',
-          },
-          {
-            number: '6',
-            player: 'Bob',
-            selection: 'Thielen',
-          },
-          {
-            number: '7',
-            player: 'Kyle',
-            selection: 'Lockett',
-          },
-          {
-            number: '8',
-            player: 'Toby',
-            selection: 'Josh Jacobs',
-          },
-          {
-            number: '9',
-            player: 'Jacobson',
-            selection: 'Kellan Allen',
-          },
-          {
-            number: '10',
-            player: 'Ford',
-            selection: 'George Kittle',
-          },
-          {
-            number: '11',
-            player: 'Zeller',
-            selection: 'Marlon Mack',
-          },
-          {
-            number: '12',
-            player: 'Drew/Scott',
-            selection: 'Diggs',
-          },
-        ],
-    }, {
+    },
+    {
+      round: '3',
+      picks: [
+        {
+          number: '1',
+          player: 'Biggie',
+          selection: 'Arron Jones',
+        },
+        {
+          number: '2',
+          player: 'Eder',
+          selection: 'Derrick Henry',
+        },
+        {
+          number: '3',
+          player: 'Dorsey',
+          selection: 'Ingram',
+        },
+        {
+          number: '4',
+          player: 'Shane',
+          selection: 'Freeman',
+        },
+        {
+          number: '5',
+          player: 'Josh',
+          selection: 'Montgomery',
+        },
+        {
+          number: '6',
+          player: 'Bob',
+          selection: 'Thielen',
+        },
+        {
+          number: '7',
+          player: 'Kyle',
+          selection: 'Lockett',
+        },
+        {
+          number: '8',
+          player: 'Toby',
+          selection: 'Josh Jacobs',
+        },
+        {
+          number: '9',
+          player: 'Jacobson',
+          selection: 'Kellan Allen',
+        },
+        {
+          number: '10',
+          player: 'Ford',
+          selection: 'George Kittle',
+        },
+        {
+          number: '11',
+          player: 'Zeller',
+          selection: 'Marlon Mack',
+        },
+        {
+          number: '12',
+          player: 'Drew/Scott',
+          selection: 'Diggs',
+        },
+      ],
+    },
+    {
       round: '4',
       picks: [
         {
@@ -258,7 +260,8 @@ const draft = {
           selection: 'Alshon Jeffery',
         },
       ],
-    },{
+    },
+    {
       round: '5',
       picks: [
         {
@@ -322,7 +325,8 @@ const draft = {
           selection: 'DJ Moore',
         },
       ],
-    }, {
+    },
+    {
       round: '6',
       picks: [
         {
@@ -386,7 +390,8 @@ const draft = {
           selection: 'Chris Carson *',
         },
       ],
-    },{
+    },
+    {
       round: '7',
       picks: [
         {
@@ -450,7 +455,8 @@ const draft = {
           selection: 'McCoy',
         },
       ],
-    }, {
+    },
+    {
       round: '8',
       picks: [
         {
@@ -514,7 +520,8 @@ const draft = {
           selection: 'Cam Newton',
         },
       ],
-    },{
+    },
+    {
       round: '9',
       picks: [
         {
@@ -578,7 +585,8 @@ const draft = {
           selection: 'Jimmy Graham',
         },
       ],
-    }, {
+    },
+    {
       round: '10',
       picks: [
         {
@@ -642,7 +650,8 @@ const draft = {
           selection: 'Germinmo Allison',
         },
       ],
-    },{
+    },
+    {
       round: '11',
       picks: [
         {
@@ -706,7 +715,8 @@ const draft = {
           selection: 'Greg Olsen',
         },
       ],
-    }, {
+    },
+    {
       round: '12',
       picks: [
         {
@@ -770,7 +780,8 @@ const draft = {
           selection: 'Phillip Rivers',
         },
       ],
-    },{
+    },
+    {
       round: '13',
       picks: [
         {
@@ -834,7 +845,8 @@ const draft = {
           selection: 'Quincy Enunwa',
         },
       ],
-    }, {
+    },
+    {
       round: '14',
       picks: [
         {
@@ -898,7 +910,8 @@ const draft = {
           selection: 'Gostkwski',
         },
       ],
-    },{
+    },
+    {
       round: '15',
       picks: [
         {
@@ -962,7 +975,8 @@ const draft = {
           selection: 'Jason Myers',
         },
       ],
-    }, {
+    },
+    {
       round: '16',
       picks: [
         {
@@ -1026,7 +1040,8 @@ const draft = {
           selection: 'Rex Burkhead',
         },
       ],
-    },{
+    },
+    {
       round: '17',
       picks: [
         {
@@ -1090,7 +1105,8 @@ const draft = {
           selection: 'Golden Tate',
         },
       ],
-    }, {
+    },
+    {
       round: '18',
       picks: [
         {
@@ -1154,8 +1170,8 @@ const draft = {
           selection: '',
         },
       ],
-    }
-  ]
+    },
+  ],
 };
 
 export default draft;

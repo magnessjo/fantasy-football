@@ -1,16 +1,14 @@
 {% extends 'layout.twig' %}
 
 {% block content %}
+  <div class="draft">
+    <section id="stage"></section>
 
-	<div class="draft">
-		<section id="stage"></section>
-
-		<section id="results">
-			<div class="lock">
-				<div class="data"></div>
-			</div>
-		</section>
-		<script src="draft.js"></script>
-	</div>
-
+    <section id="results">
+      <div class="lock">
+        <div class="data"></div>
+      </div>
+    </section>
+    <script src="draft.js"></script>
+  </div>
 {% endblock %}
