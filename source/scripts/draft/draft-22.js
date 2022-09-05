@@ -7,7 +7,7 @@ const draft = {
         {
           number: '1',
           player: 'Josh',
-          selection: '',
+          selection: 'CMC',
         },
         {
           number: '2',
@@ -42,7 +42,7 @@ const draft = {
         {
           number: '8',
           player: 'Kyle',
-          selection: '',
+          selection: 'Derrick Henry *',
         },
         {
           number: '9',
@@ -102,12 +102,12 @@ const draft = {
         {
           number: '7',
           player: 'Toby',
-          selection: '',
+          selection: 'Justin Jefferson *',
         },
         {
           number: '8',
           player: 'Ford',
-          selection: '',
+          selection: 'Stefon Diggs *',
         },
         {
           number: '9',
@@ -202,12 +202,12 @@ const draft = {
         {
           number: '1',
           player: 'Eder',
-          selection: '',
+          selection: 'Mark Andrews *',
         },
         {
           number: '2',
           player: 'Jacobson',
-          selection: '',
+          selection: 'CeeDee Lamb *',
         },
         {
           number: '3',
@@ -307,7 +307,7 @@ const draft = {
         {
           number: '9',
           player: 'Dorsey',
-          selection: '',
+          selection: 'Cooper Kupp *',
         },
         {
           number: '10',
@@ -412,7 +412,7 @@ const draft = {
         {
           number: '4',
           player: 'Shane',
-          selection: '',
+          selection: 'Justin Herbert *',
         },
         {
           number: '5',
@@ -487,7 +487,7 @@ const draft = {
         {
           number: '6',
           player: 'Drew/Scott',
-          selection: '',
+          selection: 'Leonard Fournette *',
         },
         {
           number: '7',
@@ -532,12 +532,12 @@ const draft = {
         {
           number: '2',
           player: 'Bob',
-          selection: '',
+          selection: 'Jaylen Waddle *',
         },
         {
           number: '3',
           player: 'Biggie',
-          selection: '',
+          selection: 'Tom Brady *',
         },
         {
           number: '4',
@@ -957,7 +957,7 @@ const draft = {
         {
           number: '9',
           player: 'Dorsey',
-          selection: 'JK Dobbins *',
+          selection: '',
         },
         {
           number: '10',
