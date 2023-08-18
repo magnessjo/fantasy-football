@@ -7,8 +7,10 @@ import nineteen from './draft-19.js';
 import twenty from './draft-20.js';
 import twentyOne from './draft-21.js';
 import twentyTwo from './draft-22.js';
+import twentyThree from './draft-23.js';
 
 const drafts = [
+  twentyThree,
   twentyTwo,
   twentyOne,
   twenty,
@@ -175,7 +177,6 @@ function outputData() {
   // Set each draft
 
   drafts.forEach(data => {
-    console.log(data);
     const wrapper = document.createElement('div');
     const heading = document.createElement('h2');
     const mobile = document.createElement('div');
