@@ -1,6 +1,4 @@
 {
   "singleQuote": true,
-  "useTabs": false,
-  "trailingComma": "all",
-  "plugins": ["./node_modules/prettier-plugin-twig-melody"]
+  "trailingComma": "all"
 }
