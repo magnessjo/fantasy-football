@@ -8,8 +8,10 @@ import twenty from './draft-20.js';
 import twentyOne from './draft-21.js';
 import twentyTwo from './draft-22.js';
 import twentyThree from './draft-23.js';
+import twentyFour from './draft-24.js';
 
 const drafts = [
+  twentyFour,
   twentyThree,
   twentyTwo,
   twentyOne,
@@ -44,7 +46,7 @@ function setMobile(draft, wrapper) {
 
   // Iterate over each entry
 
-  draft.picks.forEach(entry => {
+  draft.picks.forEach((entry) => {
     if (show === 'All') {
       const element = document.createElement('div');
       const player = document.createElement('div');
@@ -96,14 +98,14 @@ function setDesktop(draft, wrapper) {
   }
 
   if (show === 'All') {
-    draft.picks.forEach(entry => {
+    draft.picks.forEach((entry) => {
       const element = document.createElement('td');
 
       element.innerHTML = entry.selection;
       row.appendChild(element);
     });
   } else {
-    draft.picks.forEach(entry => {
+    draft.picks.forEach((entry) => {
       if (entry.player === show) {
         const element = document.createElement('td');
         element.innerHTML = entry.selection;
@@ -176,7 +178,7 @@ function list(years, table, mobile) {
 function outputData() {
   // Set each draft
 
-  drafts.forEach(data => {
+  drafts.forEach((data) => {
     const wrapper = document.createElement('div');
     const heading = document.createElement('h2');
     const mobile = document.createElement('div');
@@ -206,7 +208,7 @@ function createDropDown() {
   option.value = 'All';
   select.appendChild(option);
 
-  picks.forEach(key => {
+  picks.forEach((key) => {
     const name = key.player;
     const option = document.createElement('option');
     option.innerHTML = name;
