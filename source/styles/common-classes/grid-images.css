@@ -1,0 +1,23 @@
+.grid-images {
+  & > div {
+    @media (--tablet-min) {
+      display: flex;
+      align-items: center;
+    }
+
+    & img {
+      @media (--tablet-min) {
+        width: 30%;
+      }
+    }
+
+    & > div {
+      @media (--tablet-min) {
+        width: 70%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 25px;
+      }
+    }
+  }
+}

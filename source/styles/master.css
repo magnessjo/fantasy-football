@@ -1,26 +1,26 @@
-
 /* dependencies */
 
-@import "./dependencies/queries.css";
-@import "./dependencies/root.css";
-@import "./dependencies/reset.css";
+@import './dependencies/queries.css';
+@import './dependencies/root.css';
+@import './dependencies/reset.css';
 
 /* Components */
 
-@import "./components/header.css";
-@import "./components/footer.css";
-@import "./components/stage.css";
+@import './components/header.css';
+@import './components/footer.css';
+@import './components/stage.css';
 
 /* Common Classes */
 
-@import "./common-classes/lock.css";
-@import "./common-classes/main-button.css";
-@import "./common-classes/fonts.css";
+@import './common-classes/lock.css';
+@import './common-classes/main-button.css';
+@import './common-classes/fonts.css';
+@import './common-classes/grid-images.css';
 
 /* Pages */
 
-@import "./pages/homepage.css";
-@import "./pages/draft.css";
-@import "./pages/players.css";
-@import "./pages/rules.css";
-@import "./pages/bets.css";
+@import './pages/homepage.css';
+@import './pages/draft.css';
+@import './pages/players.css';
+@import './pages/rules.css';
+@import './pages/bets.css';
