@@ -1,6 +1,4 @@
-
 header {
-
   @media (--large-max) {
     height: 40px;
   }
@@ -26,14 +24,14 @@ header {
       height: 140px;
       width: 140px;
     }
-
   }
 
   & nav {
     float: right;
   }
 
-  & a, & button {
+  & a,
+  & button {
     display: inline-block;
     color: var(--black);
     text-transform: uppercase;
@@ -43,7 +41,7 @@ header {
     @media (--large-max) {
       font-size: 14px;
       letter-spacing: 2px;
-      margin-left: 20px;
+      margin-left: 12px;
       line-height: 40px;
     }
 
@@ -53,11 +51,9 @@ header {
       line-height: 80px;
       letter-spacing: 3px;
     }
-
   }
 
   & a:first-child {
     margin-left: 0;
   }
-
 }
