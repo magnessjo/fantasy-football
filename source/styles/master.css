@@ -17,11 +17,3 @@
 @import './common-classes/fonts.css';
 @import './common-classes/grid-images.css';
 @import './common-classes/row-with-offset-image.css';
-
-/* Pages */
-
-@import './pages/homepage.css';
-@import './pages/draft.css';
-@import './pages/players.css';
-@import './pages/rules.css';
-@import './pages/bets.css';

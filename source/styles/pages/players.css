@@ -1,26 +1,21 @@
+@import '../master.css';
 
 .players {
-
   & #stage {
-    background-image: url(/images/players.jpg);
     margin-bottom: 80px;
   }
 
   & #list {
-
-    & h2.heading-one {
-
-      @media (--large-max) {
-        margin-bottom: 20px;
-      }
+    & .heading-one {
+      margin-bottom: 20px;
 
       @media (--tablet-min) {
         text-align: left;
+        margin-bottom: 40px;
       }
-
     }
 
-    & h2.champ {
+    & .champ {
       position: relative;
 
       @media (--large-max) {
@@ -32,8 +27,7 @@
       }
 
       &:before {
-        content: "";
-        background-image: url(/images/players/trophy.png);
+        content: '';
         position: absolute;
         width: 40px;
         height: 80px;
@@ -49,9 +43,7 @@
           top: 0;
           left: 0;
         }
-
       }
-
     }
 
     & h3 {
@@ -60,12 +52,10 @@
     }
 
     & img {
-
       @media (--tablet-min) {
         width: 50%;
         float: left;
       }
-
     }
 
     & .lock > div {
@@ -80,11 +70,9 @@
       &:last-of-type {
         border-bottom: none;
       }
-
     }
 
     & .text {
-
       @media (--large-max) {
         text-align: center;
         margin-bottom: 40px;
@@ -102,11 +90,7 @@
         &:last-of-type {
           margin-bottom: 0;
         }
-
       }
-
     }
-
   }
-
 }

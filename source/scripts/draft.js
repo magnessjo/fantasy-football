@@ -1,14 +1,16 @@
-import fourteen from './draft-14.js';
-import fifteen from './draft-15.js';
-import sixteen from './draft-16.js';
-import seventeen from './draft-17.js';
-import eighteen from './draft-18.js';
-import nineteen from './draft-19.js';
-import twenty from './draft-20.js';
-import twentyOne from './draft-21.js';
-import twentyTwo from './draft-22.js';
-import twentyThree from './draft-23.js';
-import twentyFour from './draft-24.js';
+require('styles/pages/draft.css');
+
+import fourteen from './results/draft-14.js';
+import fifteen from './results/draft-15.js';
+import sixteen from './results/draft-16.js';
+import seventeen from './results/draft-17.js';
+import eighteen from './results/draft-18.js';
+import nineteen from './results/draft-19.js';
+import twenty from './results/draft-20.js';
+import twentyOne from './results/draft-21.js';
+import twentyTwo from './results/draft-22.js';
+import twentyThree from './results/draft-23.js';
+import twentyFour from './results/draft-24.js';
 
 const drafts = [
   twentyFour,

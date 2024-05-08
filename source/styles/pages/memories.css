@@ -1,0 +1,19 @@
+@import '../master.css';
+
+.memories {
+  & #shit-talking {
+    & .lock {
+      display: flex;
+      justify-content: center;
+    }
+
+    & h1 {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    & video {
+      max-width: 100%;
+    }
+  }
+}

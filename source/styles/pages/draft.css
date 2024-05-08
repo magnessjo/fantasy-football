@@ -1,6 +1,6 @@
+@import '../master.css';
 
 .draft {
-
   & select {
     height: 44px;
     margin-bottom: 40px;
@@ -10,12 +10,10 @@
   }
 
   & #stage {
-    background-image: url(/images/draft.jpg);
     margin-bottom: 80px;
   }
 
   & #results {
-
     & h2 {
       margin-bottom: 40px;
     }
@@ -31,7 +29,6 @@
       &:last-of-type {
         margin-bottom: 0;
       }
-
     }
 
     & .mobile {
@@ -55,21 +52,16 @@
         }
 
         &:nth-of-type(odd) {
-
           @media (--large-min) {
             margin-right: 30px;
           }
-
         }
 
         &:nth-of-type(even) {
-
           @media (--large-min) {
             margin-left: 30px;
           }
-
         }
-
       }
 
       & .filtered {
@@ -83,11 +75,9 @@
           }
 
           &:nth-of-type(even) {
-              margin-left: 0;
+            margin-left: 0;
           }
-
         }
-
       }
 
       & .entry {
@@ -124,11 +114,8 @@
             line-height: 18px;
             display: block;
           }
-
         }
-
       }
-
     }
 
     & table {
@@ -148,11 +135,9 @@
       }
 
       & tbody tr {
-
         &:nth-of-type(odd) {
           background-color: #f1f1f1;
         }
-
       }
 
       & tbody td {
@@ -162,15 +147,11 @@
         &:last-of-type {
           border-right: 1px solid #000;
         }
-
       }
 
       & tbody tr:last-of-type td {
         border-bottom: 1px solid #000;
       }
-
     }
-
   }
-
 }

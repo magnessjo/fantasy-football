@@ -1,4 +1,45 @@
+#ode {
+  color: var(--white);
+  text-align: center;
+
+  & .background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(0.8px);
+
+    &:after {
+      content: '';
+      background-color: rgba(0, 0, 0, 0.6);
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  & .lock {
+    position: relative;
+  }
+
+  & .heading-one {
+    margin-bottom: 40px;
+  }
+
+  & p {
+    margin-bottom: 20px;
+  }
+}
 
 footer {
-  
+  display: block;
+  padding: 20px 0;
+  background-color: var(--black);
+  border-top: 1px solid var(--white);
+  overflow: hidden;
 }

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "lib": ["es6", "dom", "dom.iterable"],
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "removeComments": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "build",
+    "rootDir": "source",
+    "baseUrl": "source",
+    "declaration": false,
+    "declarationMap": false,
+    "sourceMap": false,
+  },
+  "include": [
+    "./source"
+  ]
+}

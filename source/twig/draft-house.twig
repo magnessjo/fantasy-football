@@ -1,0 +1,73 @@
+{% extends 'layout.twig' %}
+
+{% block content %}
+  <div class="house">
+    <section id="stage"
+      style=" background-image: url(/images/rules.jpg);"></section>
+
+    <section id="house-years" class="house">
+      <div class="lock">
+        <div class="year">
+          <h1 class="heading-one" style="margin-bottom: 30px;">
+            <b>2024:</b> Bethany Beach, DE
+          </h1>
+
+          <ul style="text-align: center; margin-bottom: 40px;">
+            <li style="margin-bottom: 10px">
+              <b>Free</b> to join for draft day and enjoy the pool
+            </li>
+            <li style="margin-bottom: 10px"><b>$100</b> for the draft night</li>
+            <li style="margin-bottom: 10px">
+              <b>$250 or lower</b> for bunking all weekend
+            </li>
+            <li><b>$500 or more</b> for private rooms</li>
+          </ul>
+
+          <div class="row-with-image">
+            <div>
+              <img src="/images/house/bethany-map.jpg" alt="Annoucment 1" />
+              <div>
+                <p style="margin-bottom: 15px; font-weight: bold;">
+                  Located at the maryland line
+                </p>
+
+                <ul>
+                  <li style="margin-bottom: 10px">
+                    Six Bedroom home on the bay with water access.
+                  </li>
+                  <li style="margin-bottom: 10px">
+                    A pool overlooking the water
+                  </li>
+                  <li style="margin-bottom: 10px">
+                    Quick access to local favorites: Harpoon hanna's, Catch 54,
+                    etc
+                  </li>
+                  <li>Hot Tub</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid-images">
+            <img src="/images/house/bethany-1.jpg" alt />
+            <img src="/images/house/bethany-2.jpg" alt />
+            <img src="/images/house/bethany-3.jpg" alt />
+            <img src="/images/house/bethany-4.jpg" alt />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="auction">
+      <div class="lock">
+        <h2>
+          Auction Room Options
+        </h2>
+        <p>
+          Premium rooms are available for auction
+        </p>
+      </div>
+    </section>
+  </div>
+  <link rel="stylesheet" type="text/css" href="house.css" />
+{% endblock %}
