@@ -1,9 +1,7 @@
 .heading-one {
   font-size: 28px;
   text-transform: uppercase;
-  letter-spacing: 5px;
-  font-weight: 300;
-  font-family: var(--condensed);
+  font-weight: 600;
   margin-bottom: 40px;
   text-align: center;
   line-height: 0.9em;

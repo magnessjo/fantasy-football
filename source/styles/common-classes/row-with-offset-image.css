@@ -10,6 +10,10 @@
     }
 
     & img {
+      @media (--large-max) {
+        margin-bottom: 20px;
+      }
+
       @media (--tablet-min) {
         width: 50%;
       }

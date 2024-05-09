@@ -39,6 +39,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: var(--condensed);
+    font-weight: 600;
 
     @media (--large-max) {
       font-size: 14px;
@@ -49,7 +50,6 @@ header {
 
     @media (--tablet-min) {
       margin-left: 40px;
-      font-size: 18px;
       line-height: 80px;
       letter-spacing: 3px;
     }
