@@ -1,4 +1,23 @@
 @import '../master.css';
 
 .house {
+  .aution-room {
+    @media (--tablet-min) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    & > * {
+      @media (--tablet-min) {
+        width: 48%;
+      }
+    }
+  }
+
+  .aution-room > *:not(:last-child) {
+    @media (--large-max) {
+      margin-bottom: 20px;
+    }
+  }
 }

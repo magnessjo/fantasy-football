@@ -1,1 +1,1 @@
-rsync -L -ave ssh --delete --exclude .git  --exclude .gitignore --exclude .DS_Store --exclude deploy.sh  /Users/magnessjo/personal/sites/static/fantasy-football/build/*  magness:/srv/http/fantasy-football
+rsync -L -ave ssh --delete --exclude .git  --exclude .gitignore --exclude .DS_Store --exclude deploy.sh  /Users/magnessjo/personal/sites/static/fantasy-football/build/*  ec2-user@52.72.238.18:/var/www/html/fantasy

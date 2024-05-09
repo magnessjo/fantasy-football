@@ -176,12 +176,12 @@ const draft = {
         },
         {
           number: '9',
-          player: 'Bob',
+          player: 'Toby',
           selection: 'Arron Jones',
         },
         {
           number: '10',
-          player: 'Toby',
+          player: 'Bob',
           selection: 'DK',
         },
         {
@@ -306,12 +306,12 @@ const draft = {
         },
         {
           number: '9',
-          player: 'Bob',
+          player: 'Toby',
           selection: 'James Cook',
         },
         {
           number: '10',
-          player: 'Toby',
+          player: 'Bob',
           selection: 'Rashad White',
         },
         {
@@ -436,12 +436,12 @@ const draft = {
         },
         {
           number: '9',
-          player: 'Bob',
+          player: 'Toby',
           selection: 'Watson',
         },
         {
           number: '10',
-          player: 'Toby',
+          player: 'Bob',
           selection: 'Dotson',
         },
         {
@@ -566,12 +566,12 @@ const draft = {
         },
         {
           number: '9',
-          player: 'Bob',
+          player: 'Toby',
           selection: 'Penny',
         },
         {
           number: '10',
-          player: 'Toby',
+          player: 'Bob',
           selection: 'Harris',
         },
         {
@@ -696,12 +696,12 @@ const draft = {
         },
         {
           number: '9',
-          player: 'Bob',
+          player: 'Toby',
           selection: 'Eli Moore',
         },
         {
           number: '10',
-          player: 'Toby',
+          player: 'Bob',
           selection: 'Mckinnon',
         },
         {
@@ -826,12 +826,12 @@ const draft = {
         },
         {
           number: '9',
-          player: 'Bob',
+          player: 'Toby',
           selection: 'Hunt',
         },
         {
           number: '10',
-          player: 'Toby',
+          player: 'Bob',
           selection: 'Wilson',
         },
         {
@@ -956,12 +956,12 @@ const draft = {
         },
         {
           number: '9',
-          player: 'Bob',
+          player: 'Toby',
           selection: 'Carlson',
         },
         {
           number: '10',
-          player: 'Toby',
+          player: 'Bob',
           selection: 'Steelers',
         },
         {

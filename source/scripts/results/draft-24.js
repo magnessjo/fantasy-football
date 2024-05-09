@@ -6,7 +6,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
         {
@@ -61,7 +61,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
       ],
@@ -71,7 +71,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -106,7 +106,7 @@ const draft = {
         },
         {
           number: '8',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -126,7 +126,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
       ],
@@ -136,7 +136,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
         {
@@ -191,7 +191,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
       ],
@@ -201,7 +201,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -236,7 +236,7 @@ const draft = {
         },
         {
           number: '8',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -256,7 +256,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
       ],
@@ -266,7 +266,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
         {
@@ -321,7 +321,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
       ],
@@ -331,7 +331,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -366,7 +366,7 @@ const draft = {
         },
         {
           number: '8',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -386,7 +386,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
       ],
@@ -396,7 +396,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
         {
@@ -451,7 +451,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
       ],
@@ -461,7 +461,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -496,7 +496,7 @@ const draft = {
         },
         {
           number: '8',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -516,7 +516,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
       ],
@@ -526,7 +526,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
         {
@@ -581,7 +581,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
       ],
@@ -591,7 +591,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -626,7 +626,7 @@ const draft = {
         },
         {
           number: '8',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -646,7 +646,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
       ],
@@ -656,7 +656,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
         {
@@ -711,7 +711,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
       ],
@@ -721,7 +721,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -756,7 +756,7 @@ const draft = {
         },
         {
           number: '8',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -776,7 +776,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
       ],
@@ -786,7 +786,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
         {
@@ -841,7 +841,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
       ],
@@ -851,7 +851,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -886,7 +886,7 @@ const draft = {
         },
         {
           number: '8',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -906,7 +906,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
       ],
@@ -916,7 +916,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
         {
@@ -971,7 +971,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
       ],
@@ -981,7 +981,7 @@ const draft = {
       picks: [
         {
           number: '1',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -1016,7 +1016,7 @@ const draft = {
         },
         {
           number: '8',
-          player: 'Shane',
+          player: 'Scott',
           selection: '',
         },
         {
@@ -1036,7 +1036,7 @@ const draft = {
         },
         {
           number: '12',
-          player: 'Drew/Scott',
+          player: 'Drew',
           selection: '',
         },
       ],
